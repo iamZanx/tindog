@@ -1,0 +1,159 @@
+#title {
+  background-color: #ff4c48;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 800;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.iPhone {
+  transform: rotate(20deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.features-div {
+  text-align: center;
+  line-height: 1.5;
+  padding: 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+.feature-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #ff4c68;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  font-family: "Montserrat";
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#pricing{
+  text-align: center;
+  padding: 80px;
+}
+.price-cards{
+  padding: 3% 2%;
+}
+.pricing-row{
+  margin-top: 5%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .iPhone{
+    transform: rotate(0);
+    position: static;
+  }
+}
+#cta{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-h3{
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.cta-buttons{
+  margin: 3% 1% 5%;
+}
+#footer{
+  text-align: center;
+  padding: 5% 20% 3%;
+  font-family: "Montserrat";
+}
+
+.footer-icons-div{
+  margin: 1%;
+}
+.footer-icons{
+  margin: 0 1.3% 1.5%;
+}
